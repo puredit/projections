@@ -1,0 +1,20 @@
+{
+  "name": "@puredit/projections",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "@codemirror/autocomplete": "6",
+    "@codemirror/language": "6",
+    "@codemirror/state": "6",
+    "@codemirror/view": "6",
+    "@puredit/parser": "*",
+    "@types/string-similarity": "^4.0.0",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "@puredit/tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}
