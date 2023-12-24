@@ -10,7 +10,7 @@ import type {
   ContextRange,
   PatternMap,
 } from "@puredit/parser/types";
-import type { Projection, ProjectionPluginConfig } from "./types";
+import type { Projection, ProjectionPluginConfig } from "../types";
 
 export interface ProjectionState {
   config: ProjectionPluginConfig;

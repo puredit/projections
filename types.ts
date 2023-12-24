@@ -1,6 +1,6 @@
 import type { Text } from "@codemirror/state";
 import type { Context, Match, Parser, PatternNode } from "@puredit/parser";
-import type { ProjectionWidgetClass } from "./projection";
+import type { ProjectionWidgetClass } from "./src/projection";
 
 export interface ProjectionCompletion {
   label: string;
